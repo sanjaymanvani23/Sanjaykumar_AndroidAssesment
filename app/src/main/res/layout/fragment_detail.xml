@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".DetailFragment">
+
+    <ImageView
+        android:id="@+id/imageRefresh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="15dp"
+        android:src="@android:drawable/ic_media_rew"
+        android:tint="@android:color/black"
+        android:layout_gravity="top|right"
+        tools:ignore="UseAppTint" />
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/universityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+         />
+
+    <TextView
+        android:id="@+id/universityState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+         />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/countryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/universityCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/webpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+         />
+
+</LinearLayout>
